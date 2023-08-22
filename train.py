@@ -3,10 +3,10 @@ from ultralytics import YOLO
 import torch
 
 # paths
-log_dir = '/home/sredondo/Projects/YOLOV8/runs/detect'
-yaml_path = '/home/sredondo/Projects/YOLOV8/datasets/helm.yaml'
+log_dir = '/media/datasets/runs/detect'
+yaml_path = '/media/datasets/helm.yaml'
 
-# Define the command to launch TensorBoard
+# # Define the command to launch TensorBoard
 # tensorboard_command = f"tensorboard --logdir={log_dir}"
 
 # # Use subprocess to run the command
