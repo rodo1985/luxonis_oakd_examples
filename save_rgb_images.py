@@ -28,7 +28,7 @@ camRgb.setColorOrder(dai.ColorCameraProperties.ColorOrder.RGB)
 camRgb.preview.link(xoutRgb.input)
 
 # Connect to device and start pipeline
-with dai.Device(pipeline) as device:
+with dai.Device(pipeline, usb2Mode=True) as device:
 
     print('Connected cameras:', device.getConnectedCameraFeatures())
     # Print out usb speed

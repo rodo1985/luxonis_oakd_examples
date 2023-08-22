@@ -160,3 +160,10 @@ cython_debug/
 #.idea/
 
 images
+delete
+myenv
+content
+runs
+*.pt
+datasets
+models
